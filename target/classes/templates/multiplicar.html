@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>MULTIPLICAR</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+       <body>
+        <form action="multiplicar" method="post">
+            <input type="text" name="numero1" />
+            <input type="text" name="numero2" />
+            
+            <input type="submit" value="multiplicar" />
+        </form>
+        
+        <p th:if="${resultado}" th:text="'Resultado: ' + ${resultado}" />
+    </body>
+</html>
