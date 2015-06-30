@@ -66,7 +66,10 @@
                 <version>3.1.0</version>
                 <configuration>
                     <repoToken>uDlp4cifaivip6eooArUkd4lhDN5Oa4Y6</repoToken>
+<<<<<<< HEAD
                               
+=======
+>>>>>>> 588f8b11b261e57d4eb61f73d35645acfa426499
                 </configuration>
             </plugin>
             <plugin>
