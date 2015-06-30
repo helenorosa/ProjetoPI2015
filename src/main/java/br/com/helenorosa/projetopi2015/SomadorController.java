@@ -31,6 +31,6 @@ public class SomadorController {
         
         model.addAttribute("resultado", resultado);
         
-        return "index";
+        return "somar";
     }
 }

@@ -8,15 +8,15 @@
     <body>
 
         <div class="container">
-            <p><a href="/" title="Somar">MENU</a></p>
+            <a href="/">MENU</a><br/>
             <form action="somar" method="post">
                 <input type="text" name="numero1" />
                 <input type="text" name="numero2" />
 
-                <input type="submit" value="Somar" />
+                <input type="submit" name="somar" value="Somar" />
             </form>
-
-            <p th:if="${resultado}" th:text="'Resultado: ' + ${resultado}" />
         </div>
+
+        <p th:if="${resultado}" th:text="'Resultado: ' + ${resultado}" id="resultado" />
     </body>
 </html>

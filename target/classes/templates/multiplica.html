@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>SUBTRAIR</title>
+        <title>MULTIPLICAR</title>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     </head>
     <body>
+
         <div class="container">
             <a href="/">MENU</a>
-            <form action="subtrair" method="post">
+            <form action="multiplica" method="post">
                 <input type="text" name="numero1" />
                 <input type="text" name="numero2" />
 
-                <input type="submit" class="bottom" value="Subtrair" />
+                <input type="submit" name="multiplica" value="Multiplicar" />
             </form>
-
-            <p th:if="${resultado}" th:text="'Resultado: ' + ${resultado}" />
         </div>
+
+        <p th:if="${resultado}" th:text="'Resultado: ' + ${resultado}" id="resultado" />
     </body>
 </html>
