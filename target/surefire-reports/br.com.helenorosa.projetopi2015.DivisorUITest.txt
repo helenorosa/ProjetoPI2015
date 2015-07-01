@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.helenorosa.projetopi2015.DivisorUITest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.418 sec <<< FAILURE! - in br.com.helenorosa.projetopi2015.DivisorUITest
-testarSeORaioDe10Sera314(br.com.helenorosa.projetopi2015.DivisorUITest)  Time elapsed: 6.418 sec  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: Unable to locate element with name: numero1
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'HELENOROSA-PC', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
-Driver info: driver.version: HtmlUnitDriver
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementByName(HtmlUnitDriver.java:1043)
-	at org.openqa.selenium.By$ByName.findElement(By.java:299)
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1648)
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1644)
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1302)
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1644)
-	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:550)
-	at br.com.helenorosa.projetopi2015.DivisorUITest.testarSeORaioDe10Sera314(DivisorUITest.java:24)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.534 sec - in br.com.helenorosa.projetopi2015.DivisorUITest
