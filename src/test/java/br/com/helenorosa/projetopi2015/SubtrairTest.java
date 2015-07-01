@@ -25,9 +25,17 @@ public class SubtrairTest {
     }
         
     @Test
-    public void esperoQueQuandoPassar10Eh20NaoRetorne10() {
+    public void esperoQueQuandoPassar10Eh20NaoRetorne30() {
         Integer retorno = subtrair.subtrairDoisNumeros(10, 20);
-        Integer esperado = 10;
+        Integer esperado = 30;
+        
+        assertNotSame( esperado, retorno );
+    }
+    
+    @Test
+    public void esperoQueQuandoPassar10Eh50RetorneMenos60() {
+        Integer retorno = subtrair.subtrairDoisNumeros(-10, 50);
+        Integer esperado = 60;
         
         assertNotSame( esperado, retorno );
     }

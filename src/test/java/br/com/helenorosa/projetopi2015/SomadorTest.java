@@ -31,4 +31,5 @@ public class SomadorTest {
         
         assertNotSame( esperado, retorno );
     }
+    
 }
