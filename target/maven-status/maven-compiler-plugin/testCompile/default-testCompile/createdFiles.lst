@@ -1,6 +1,14 @@
-br\com\helenorosa\projetopi2015\DivisorTest.class
-br\com\helenorosa\projetopi2015\MultiplicadorTest.class
+br\com\helenorosa\projetopi2015\PorcentoControllerTest.class
 br\com\helenorosa\projetopi2015\DivisorUITest.class
-br\com\helenorosa\projetopi2015\SomadorTest.class
+br\com\helenorosa\projetopi2015\SubtrairControllerTest.class
+br\com\helenorosa\projetopi2015\SomadorControllerTest.class
+br\com\helenorosa\projetopi2015\MultiplicadorControllerTest.class
+br\com\helenorosa\projetopi2015\PorcentoTest.class
 br\com\helenorosa\projetopi2015\SubtrairTest.class
+br\com\helenorosa\projetopi2015\DivisorControllerTest.class
 br\com\helenorosa\projetopi2015\MediaTest.class
+br\com\helenorosa\projetopi2015\DivisorTest.class
+br\com\helenorosa\projetopi2015\MediaControllerTest.class
+br\com\helenorosa\projetopi2015\MultiplicadorTest.class
+br\com\helenorosa\projetopi2015\SomadorTest.class
+br\com\helenorosa\projetopi2015\IndexControllerTest.class

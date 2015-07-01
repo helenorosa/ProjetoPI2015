@@ -6,10 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
-/**
- *
- * @author HELENOROSA
- */
+
 public class DivisorUITest {
     private HtmlUnitDriver driver;
     
