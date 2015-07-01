@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.com.helenorosa.projetopi2015.DivisorUITest" time="2.813" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="br.com.helenorosa.projetopi2015.DivisorUITest" time="6.418" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
@@ -14,9 +14,8 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="test" value="br.com.helenorosa.projetopi2015.DivisorUITest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\HELENOROSA\Documents\NetBeansProjects\ProjetoPI2015"/>
+    <property name="user.dir" value="C:\Users\HELENOROSA\Desktop\ProjetoPI2015"/>
     <property name="java.runtime.version" value="1.8.0_05-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed"/>
@@ -44,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=br.com.helenorosa.projetopi2015.DivisorUITest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +60,163 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testarSeORaioDe10Sera314" classname="br.com.helenorosa.projetopi2015.DivisorUITest" time="2.813"/>
+  <testcase name="testarSeORaioDe10Sera314" classname="br.com.helenorosa.projetopi2015.DivisorUITest" time="6.418">
+    <error message="Unable to locate element with name: numero1&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;HELENOROSA-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: driver.version: HtmlUnitDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element with name: numero1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'HELENOROSA-PC', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementByName(HtmlUnitDriver.java:1043)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1648)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1644)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1302)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1644)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:550)
+	at br.com.helenorosa.projetopi2015.DivisorUITest.testarSeORaioDe10Sera314(DivisorUITest.java:24)
+</error>
+    <system-out><![CDATA[21:10:28.653 [main] DEBUG c.g.htmlunit.WebClient - Get page for window named '', using WebRequest[<url="about:blank", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept=image/gif, image/jpeg, image/pjpeg, image/pjpeg, */*, Accept-Encoding=gzip, deflate}, null>]
+21:10:28.747 [main] DEBUG c.g.htmlunit.WebWindowImpl - setEnclosedPage: HtmlPage(about:blank)@100869666
+21:10:28.747 [main] DEBUG c.g.htmlunit.WebWindowImpl - destroyChildren
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlInput to HTMLInputElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDefinitionTerm to HTMLDefinitionTermElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomAttr to Attr
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNoScript to HTMLNoShowElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNoEmbed to HTMLNoShowElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNoFrames to HTMLNoShowElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSpan to HTMLSpanElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableColumn to HTMLTableColElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableColumnGroup to HTMLTableColElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTable to HTMLTableElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDivision to HTMLDivElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlCaption to HTMLTableCaptionElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTitle to HTMLTitleElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlUnknownElement to HTMLUnknownElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlArticle to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSection to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlElement to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFooter to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlMark to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFigure to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNav to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFigureCaption to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeader to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlAside to HTMLElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBackgroundSound to HTMLBGSoundElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlListItem to HTMLLIElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlStyle to HTMLStyleElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFrameSet to HTMLFrameSetElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlOption to HTMLOptionElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlEmbed to HTMLEmbedElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomProcessingInstruction to ProcessingInstruction
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNextId to HTMLNextIdElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBaseFont to HTMLBaseFontElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlMeta to HTMLMetaElement
+21:10:29.153 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBase to HTMLBaseElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDataList to HTMLDataListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlMap to HTMLMapElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHtml to HTMLHtmlElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomText to Text
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSelect to HTMLSelectElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHorizontalRule to HTMLHRElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDefinitionList to HTMLDListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlScript to HTMLScriptElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlOrderedList to HTMLOListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlOptionGroup to HTMLOptGroupElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableRow to HTMLTableRowElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBlockQuote to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlPlainText to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlPreformattedText to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlAddress to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlCenter to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlListing to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlExample to HTMLBlockElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFont to HTMLFontElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlLabel to HTMLLabelElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomCharacterData to CharacterDataImpl
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlParameter to HTMLParamElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomCDataSection to CDATASection
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlImage to HTMLImageElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlForm to HTMLFormElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlUnorderedList to HTMLUListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlMenu to HTMLUListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDirectory to HTMLUListElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableCell to HTMLTableCellElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlButton to HTMLButtonElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading4 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading2 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading6 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading1 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading3 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHeading5 to HTMLHeadingElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlLegend to HTMLLegendElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlLink to HTMLLinkElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlMarquee to HTMLMarqueeElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDefinitionDescription to HTMLDefinitionDescriptionElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlIsIndex to HTMLIsIndexElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlWordBreak to HTMLTextElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFieldSet to HTMLFieldSetElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlHead to HTMLHeadElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlInlineFrame to HTMLIFrameElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomElement to Element
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlArea to HTMLAreaElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableBody to HTMLTableSectionElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableHeader to HTMLTableSectionElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTableFooter to HTMLTableSectionElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTextArea to HTMLTextAreaElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBreak to HTMLBRElement
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomDocumentFragment to DocumentFragment
+21:10:29.169 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomComment to Comment
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlObject to HTMLObjectElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.DomDocumentType to DocumentType
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlAbbreviated to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSmall to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlVariable to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSample to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlInlineQuotation to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBold to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlCitation to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSuperscript to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlRt to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBig to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlUnderlined to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlTeletype to HTMLPhraseElement
+21:10:29.184 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBlink to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlRp to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlStrong to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDefinition to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlS to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlItalic to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlEmphasis to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlSubscript to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlKeyboard to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlRuby to HTMLPhraseElement
+21:10:29.247 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBidirectionalOverride to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlInsertedText to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlDeletedText to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlStrike to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlAcronym to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlCode to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlNoBreak to HTMLPhraseElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlFrame to HTMLFrameElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlParagraph to HTMLParagraphElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlApplet to HTMLAppletElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlAnchor to HTMLAnchorElement
+21:10:29.263 [main] DEBUG c.g.h.j.c.AbstractJavaScriptConfiguration - Mapping com.gargoylesoftware.htmlunit.html.HtmlBody to HTMLBodyElement
+21:10:29.294 [main] DEBUG c.g.htmlunit.WebClient - Get page for window named '', using WebRequest[<url="http://localhost:8080/dividir", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept=image/gif, image/jpeg, image/pjpeg, image/pjpeg, */*, Accept-Encoding=gzip, deflate}, null>]
+21:10:29.309 [main] DEBUG c.g.htmlunit.WebClient - Load response for GET http://localhost:8080/dividir
+21:10:29.934 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: mine
+21:10:29.950 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+21:10:29.950 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 6; total allocated: 0 of 20]
+21:10:30.028 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 1 of 6; total allocated: 1 of 20]
+21:10:30.028 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8080
+21:10:30.044 [main] DEBUG o.a.h.i.c.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8080
+21:10:31.060 [main] DEBUG o.a.h.i.c.HttpClientConnectionOperator - Connect to localhost/127.0.0.1:8080 timed out. Connection will be retried using another IP address
+21:10:31.060 [main] DEBUG o.a.h.i.c.HttpClientConnectionOperator - Connecting to localhost/0:0:0:0:0:0:0:1:8080
+21:10:32.086 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+21:10:32.086 [main] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+21:10:32.086 [main] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+21:10:32.086 [main] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 6; total allocated: 0 of 20]
+]]></system-out>
+  </testcase>
 </testsuite>
