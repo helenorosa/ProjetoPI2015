@@ -23,5 +23,12 @@ public class MultiplicadorTest {
         
         assertEquals( esperado, retorno );
     }
-    
+    @Test
+    public void esperoQueQuandoPassar8Eh2Retorne8() {
+        Integer retorno = multiplicador.multiplicarDoisNumerosRetornoPar(8, 2);
+        Integer esperado = 8;
+        
+        assertEquals(esperado, retorno );
+
+    }
 }
