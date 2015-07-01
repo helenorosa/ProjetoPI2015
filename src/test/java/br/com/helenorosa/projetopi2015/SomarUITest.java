@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 
-public class DivisorUITest {
+public class SomarUITest {
     private HtmlUnitDriver driver;
     
     @Before
@@ -16,14 +16,14 @@ public class DivisorUITest {
     }
     
     @Test
-    public void testardivisaoDoisNumeros10E2Espero5() {
-        driver.get( "http://localhost:8080/dividir" );
-        driver.findElement(By.name("numero1")).sendKeys( "10" );
-        driver.findElement(By.name("numero2")).sendKeys( "2" );
-        driver.findElement(By.name("dividir")).click();
+    public void testarSomaDoisNumeros() {
+        driver.get( "http://localhost:8080/somar" );
+        driver.findElement(By.name("numero1")).sendKeys( "5" );
+        driver.findElement(By.name("numero2")).sendKeys( "5" );
+        driver.findElement(By.name("somar")).click();
         
         String retorno = driver.findElement(By.id("resultado")).getText();
-        String esperado = "Resultado: 5";
+        String esperado = "Resultado: 10";
         
         assertEquals( esperado, retorno );
     }

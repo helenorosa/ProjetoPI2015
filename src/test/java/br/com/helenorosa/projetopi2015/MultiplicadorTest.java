@@ -4,10 +4,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Before;
 
-/**
- *
- * @author HELENOROSA
- */
 public class MultiplicadorTest {
     private Multiplicador multiplicador;
     
