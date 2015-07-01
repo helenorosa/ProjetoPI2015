@@ -66,7 +66,18 @@
                 <version>3.1.0</version>
                 <configuration>
                     <repoToken>uDlp4cifaivip6eooArUkd4lhDN5Oa4Y6</repoToken> 
-                    
+                   
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <format>xml</format>
+                    <maxmem>256m</maxmem>
+                    <!-- aggregated reports for multi-module projects -->
+                    <aggregate>true</aggregate>
                 </configuration>
             </plugin>
             <plugin>
