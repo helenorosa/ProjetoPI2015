@@ -32,4 +32,12 @@ public class SomadorTest {
         assertNotSame( esperado, retorno );
     }
     
+     @Test
+    public void testandoSoma() {
+        Integer retorno = somador.somarNumeros(10);
+        Integer esperado = 10;
+        
+        assertNotSame( esperado, retorno );
+    }
+    
 }
